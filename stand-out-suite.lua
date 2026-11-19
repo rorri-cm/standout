@@ -1,4 +1,4 @@
--- STAND OUT Suite / Nexa UI. Single file. Nothing starts automatically.
+-- STAND OUT Suite / Nexa UI. Single file.
 if _G.StandOutSuite and _G.StandOutSuite.Destroy then _G.StandOutSuite:Destroy() end
 if _G.StandOutBounties and _G.StandOutBounties.Stop then pcall(_G.StandOutBounties.Stop) end
 if _G.Nexa and _G.Nexa.Destroy then pcall(function() _G.Nexa:Destroy() end) end
